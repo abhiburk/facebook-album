@@ -1,4 +1,4 @@
-Enter the page id: <input type="text" id="m" value="">
+Enter the page id: <input type="text" id="m" value="">  (facebook page user name)
 
 <button type="button" id="myButton">submit</button>
 
