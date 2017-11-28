@@ -41,9 +41,6 @@ foreach($fbPhotoData as $data){
 ?>
 </div>
 
-
-
-
 <script>
     $(document).ready(function() {
       $("#owl-demo").owlCarousel({
@@ -57,7 +54,6 @@ foreach($fbPhotoData as $data){
     });
 </script>
 
-
 <style>
 
 #owl-demo .item{
@@ -70,5 +66,3 @@ foreach($fbPhotoData as $data){
 }
 
 </style>
-
-
