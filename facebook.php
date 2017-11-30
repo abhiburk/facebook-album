@@ -29,8 +29,8 @@ if(isset($_SESSION['access_token'])){
     $access_token = $_SESSION['access_token'];
 }else{
     // Facebook app id & app secret 
-    $appId = '2030905173821685'; 
-    $appSecret = 'ba30ca99bf0d3baeb191712e52614e6a';
+    $appId = 'xxxxxxxxxxxxxxxx'; 
+    $appSecret = 'xxxxxxxxxxxxxxxxxxx';
     
     // Generate access token
     $graphActLink = "https://graph.facebook.com/oauth/access_token?client_id={$appId}&client_secret={$appSecret}&grant_type=client_credentials";
